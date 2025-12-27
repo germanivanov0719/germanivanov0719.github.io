@@ -21,13 +21,13 @@ html,
 body {
   width: 100%;
   max-width: 22cm;
-  margin: 1cm 0;
-  padding: 1cm;
+  /* margin: .5cm 0; */
+  padding: 0.5cm;
   /* outline: 1px solid black; */
   min-height: 29cm;
 }
 
-@media (min-width: 23cm) {
+@media (min-width: 21cm) {
   body {
     padding: 2cm 2cm 2cm 3cm;
     margin: 1cm auto;
