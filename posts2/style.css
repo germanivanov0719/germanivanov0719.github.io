@@ -1,24 +1,24 @@
 @font-face {
   font-family: TNR; /* set name */
-  src: url(./Times\ New\ Roman.ttf); /* url of the font */
+  src: url(./Times\ New\ Roman.woff2); /* url of the font */
 }
 
 @font-face {
   font-family: TNR; /* set name */
-  src: url(./Times\ New\ Roman\ Bold.ttf); /* url of the font */
+  src: url(./Times\ New\ Roman\ Bold.woff2); /* url of the font */
   font-weight: bold;
 }
 
 @font-face {
   font-family: TNR; /* set name */
-  src: url(./Times\ New\ Roman\ Bold\ Italic.ttf); /* url of the font */
+  src: url(./Times\ New\ Roman\ Bold\ Italic.woff2); /* url of the font */
   font-weight: bold;
   font-style: italic;
 }
 
 @font-face {
   font-family: TNR; /* set name */
-  src: url(./Times\ New\ Roman\ Italic.ttf); /* url of the font */
+  src: url(./Times\ New\ Roman\ Italic.woff2); /* url of the font */
   font-style: italic;
 }
 
