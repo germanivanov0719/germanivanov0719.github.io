@@ -1,6 +1,25 @@
 @font-face {
-  font-family: Times; /* set name */
-  src: url(./Times.ttc); /* url of the font */
+  font-family: TNR; /* set name */
+  src: url(./Times\ New\ Roman.ttf); /* url of the font */
+}
+
+@font-face {
+  font-family: TNR; /* set name */
+  src: url(./Times\ New\ Roman\ Bold.ttf); /* url of the font */
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: TNR; /* set name */
+  src: url(./Times\ New\ Roman\ Bold\ Italic.ttf); /* url of the font */
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: TNR; /* set name */
+  src: url(./Times\ New\ Roman\ Italic.ttf); /* url of the font */
+  font-style: italic;
 }
 
 *,
@@ -16,9 +35,9 @@ body {
 
 html,
 * {
-  font-family: Times, "Times New Roman", serif;
-  color:black;
-  background-color:white;
+  font-family: "Times New Roman", TNR, Times, serif;
+  color: black;
+  background-color: white;
   font-size: 12pt;
   /* hyphens:manual; */
   margin: 0;
