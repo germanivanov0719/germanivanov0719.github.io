@@ -1,0 +1,58 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+}
+
+html,
+* {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 12pt;
+  margin: 0;
+  padding: 0;
+  line-height: 1.25;
+}
+
+body {
+  width: 100%;
+  max-width: 22cm;
+  margin: 1cm 0;
+  padding: 1cm;
+  /* outline: 1px solid black; */
+  min-height: 29cm;
+}
+
+@media (min-width: 23cm) {
+  body {
+    padding: 2cm 2cm 2cm 3cm;
+    margin: 1cm auto;
+    outline: 1px solid black;
+  }
+}
+
+p {
+  text-align: justify;
+  text-indent: 3em;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+.r {
+  text-align: right;
+}
+
+.c {
+  text-align: center;
+}
