@@ -44,10 +44,8 @@
 
           htmlFiles.forEach((file) => {
             const li = document.createElement("li");
-
             const a = document.createElement("a");
 
-            // URL для GitHub Pages
             a.href = `/${POSTS_PATH}/${file.name}`;
 
             // название (можешь потом парсить <title>, если захочешь усложнить)
